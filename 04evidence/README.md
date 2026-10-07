@@ -1,2 +1,2 @@
 # Evidence
-This older contains screenshots and other evidence collected from the lab.
+This folder contains screenshots and other evidence collected from the lab.
