@@ -89,6 +89,26 @@ The user was added back to the Finance security group that controlled access to 
 
 ---
 
+### INC-003 — New Employee Provisioning
+
+Documented the new employee account and access-provisioning workflow.
+
+[View Incident Report](02incidents/INC-003-new-employee-provisioning.md)
+
+---
+
+### INC-004 — Group Policy Not Applying
+
+Investigated a test Group Policy Object that was linked to the wrong Organizational Unit (OU).
+
+* Reviewed the GPO configuration and initial application results.
+* Corrected the GPO link.
+* Verified successful policy application and the logon notice.
+
+[View Incident Report](02incidents/INC-004-group-policy-not-applying.md)
+
+---
+
 ### DNS Troubleshooting — Internal Domain Resolution
 
 Investigated a Windows 11 client that could not reliably resolve the internal Active Directory domain.
@@ -115,24 +135,31 @@ Internal DNS resolution was then successfully restored.
 
 ```text
 IT-support-homelab/
-│
 ├── README.md
-│
 ├── 01environment/
 │   ├── README.md
-│   └── Active Directory environment documentation
-│
+│   ├── 01-AD-structure.md
+│   └── Environment screenshots
 ├── 02incidents/
 │   ├── README.md
 │   ├── INC-001-account-lockout.md
-│   └── INC-002-finance-share-access.md
-│
+│   ├── INC-002-finance-share-access.md
+│   ├── INC-003-new-employee-provisioning.md
+│   └── INC-004-group-policy-not-applying.md
 ├── 03documentation/
 │   ├── README.md
 │   └── dns-troubleshooting.md
-│
 └── 04evidence/
-    └── Troubleshooting screenshots and supporting evidence
+    ├── README.md
+    ├── INC-001-account-lockout/
+    │   └── Evidence screenshots
+    ├── INC-002-finance-share-access/
+    │   └── Evidence screenshots
+    ├── INC-003-new-employee-provisioning/
+    │   └── Evidence screenshots
+    └── INC-004-group-policy-not-applying/
+        ├── README.md
+        └── Evidence screenshots
 
 ```
 
