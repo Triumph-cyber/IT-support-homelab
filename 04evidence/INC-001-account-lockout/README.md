@@ -4,6 +4,6 @@ Supporting screenshots for the Active Directory account lockout troubleshooting 
 
 ## Evidence
 
-- `account-locked.png` — Windows account lockout message
-- `event-4740.png` — Active Directory account lockout event
-- `successful-domain-login.png` — Successful domain authentication after remediation
+- [Windows account lockout message](account-locked.png)
+- [Active Directory account lockout event](event-4740.png)
+- [Successful domain authentication after remediation](successful-domain-login.png)
