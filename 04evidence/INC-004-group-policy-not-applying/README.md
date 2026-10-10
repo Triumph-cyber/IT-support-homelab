@@ -4,11 +4,11 @@ Screenshots documenting the controlled GPO troubleshooting simulation.
 
 Evidence
 
-* gpo-wrong-ou.png — Test GPO initially linked to the wrong OU.
-* gpo-test-settings.png — Configured logon notice settings.
-* gpo-not-applied.png — Initial gpresult showing the test GPO was not applied.
-* gpo-corrected-link.png — GPO linked to the correct workstation OU.
-* gpo-applied.png — Updated gpresult confirming policy application.
-* gpo-logon-notice.png — Logon notice displayed after remediation.
+* [Test GPO initially linked to the wrong OU](gpo-wrong-ou.png)
+* [Configured logon notice settings](gpo-test-setting.png)
+* [Initial gpresult showing the test GPO was not applied](gpo-not-applied.png)
+* [GPO linked to the correct workstation OU](gpo-corrected-link.png)
+* [Updated gpresult confirming policy application](gpo-applied.png)
+* [Logon notice displayed after remediation](gpo-logon-notice.png)
 
 Outcome: Corrected the GPO link and verified successful policy application.
